@@ -1,0 +1,148 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: bold;
+}
+
+h2, p {
+    margin: 0px;
+}
+
+.box h2 {
+    font-size: 27px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 900px;
+    width: 1000px;
+}
+
+/* Navigation bar */
+.nav, .currentCity {
+    background-color: skyblue;
+    color: white;
+    height: 30px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.nav-links {
+    margin: 0px;
+    display: flex;
+    gap: 25px;
+}
+
+/* current city top bar */
+.currentCity {
+    border-bottom: solid;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* main content, current weather */
+.currentWeather {
+    justify-content: space-between;
+    display: flex;
+    line-height: 55px;
+    gap: 20px;
+}
+
+.box {
+    background-color: rgb(223, 223, 223);
+    padding: 25px;
+    padding-bottom: 0px;
+    text-align: center;
+    min-width: 120px;
+    transition: all 150ms ease-in-out;
+    margin: 15px 0px;
+}
+
+.temp {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red, .blue {
+    font-size: 35px;
+    text-shadow: 1px 1px 2px black;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+
+img {
+    height: 180px;
+    border-radius: 50%;
+}
+
+/* Cookies! */
+.cookies {
+    bottom: 10px;
+    width: 955px;
+    background-color: rgb(223, 223, 223);
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+    display: flex;
+    padding: 20px;
+    position: fixed;
+}
+
+.cookies img {
+    height: 70px;
+}
+
+.cookieMessage {
+    margin:0px 10px;
+}
+
+/* Styling! */
+button {
+    background-color: skyblue;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    border: 3px solid skyblue;
+    box-shadow: 1px 1px 4px black;
+}
